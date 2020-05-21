@@ -1,0 +1,53 @@
+/*Header start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 10px 0 20px;
+
+}
+.wrapper{
+	overflow: hidden;
+	width: 94%;
+	margin: 0 auto;
+
+}
+.logo{
+	width: 28%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 66%;
+	float: right;
+	margin-top:3px;
+
+}
+.menu ul{
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{ 
+	text-decoration:none;
+	text-transform: uppercase;
+
+	font-family: sans-serif;
+	font-size: 16px;
+	color:#6E858B;
+	padding: 0 20px; 
+	display: inline-block;
+	transition: .4s;
+}
+.menu ul li a:hover{
+	color: #CDC0BA;
+
+}
+/*Header end*/
